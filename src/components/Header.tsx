@@ -1,5 +1,6 @@
 import AT2000Logo from "../assets/AT2000-logo.webp";
 
+
 type HeaderProps = {lang: string; setLang: (lang: string) => void;
       goToAbout: () => void; goToProjects: () => void};
 

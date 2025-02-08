@@ -28,7 +28,8 @@ const Projects = forwardRef<HTMLDivElement, ProjectsProps>(
       <div className="mx-10 flex flex-wrap justify-around items-start">
       
         <div className="mt-10 sm:mt-8 flex flex-col items-center">
-          <img src={recipeAppScreen} alt="a desktop screenshot of 'Recipe App'"
+          <img src={recipeAppScreen}
+                alt="a desktop screenshot of 'Recipe App'"
                 className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
                   border-cyan-400 object-cover object-center" />
           {displayTech(["JavaScript", "React 19", "Tailwind 3"])}

@@ -7,6 +7,7 @@ import { AISmile } from "../assets/ai-smile.tsx";
 import webdevLogo from "../assets/webdev.jpeg";
 import { WebDev } from "../assets/webdev.tsx";
 
+
 type AboutProps = {lang : string};
 
 
@@ -20,8 +21,8 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
     const smallTitleStyle = "flex justify-start items-center text-lg \
           sm:text-xl font-bold";
     const iconStyle = "ml-0.5 sm:ml-1.5 mr-1.5 sm:mr-2 w-4 text-teal-200";
-    const descriptionStyle = "sm:mt-1.5 ml-0.5 sm:ml-1.5 text-xs sm:text-base \
-          italic text-purple-300";
+    const descriptionStyle = "sm:mt-1.5 ml-0.5 sm:ml-1.5 text-xs \
+          sm:text-base italic text-purple-300";
 
     return (<div ref={aboutRef}>
     <h2 className="mt-20 bg-blue-800 py-2 text-center text-3xl font-bold

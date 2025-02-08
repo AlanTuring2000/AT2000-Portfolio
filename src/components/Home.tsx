@@ -1,6 +1,8 @@
 import myPicture from "../assets/myPicture.webp";
 
+
 type HomeProps = { lang: string };
+
 
 function Home({ lang }: HomeProps) {
   return (
