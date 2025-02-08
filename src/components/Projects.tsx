@@ -28,10 +28,13 @@ const Projects = forwardRef<HTMLDivElement, ProjectsProps>(
       <div className="mx-10 flex flex-wrap justify-around items-start">
       
         <div className="mt-10 sm:mt-8 flex flex-col items-center">
-          <img src={recipeAppScreen}
-                alt="a desktop screenshot of 'Recipe App'"
-                className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
-                  border-cyan-400 object-cover object-center" />
+          <a href="https://recipe-app-delta-gules.vercel.app/"
+                    target="_blank" rel="noopener noreferrer">
+            <img src={recipeAppScreen}
+                  alt="a desktop screenshot of 'Recipe App'"
+                  className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
+                    border-cyan-400 object-cover object-center
+                    cursor-pointer" /></a>
           {displayTech(["JavaScript", "React 19", "Tailwind 3"])}
           <p className="w-64 flex flex-wrap justify-start items-center px-2">
             <span className="space-x-2">
@@ -48,9 +51,12 @@ const Projects = forwardRef<HTMLDivElement, ProjectsProps>(
                 {lang === "En" ? "(Github repo)" : "(lien Github)"}</a></span></p></div>
         
         <div className="mt-8 flex flex-col items-center">
-          <img src={doziesScreen} alt="a desktop screenshot of 'Dozies'"
-                className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
-                  border-cyan-400 object-cover object-center" />
+          <a href="https://dozies.vercel.app/"
+                target="_blank" rel="noopener noreferrer">
+            <img src={doziesScreen} alt="a desktop screenshot of 'Dozies'"
+                  className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
+                    border-cyan-400 object-cover object-center
+                    cursor-pointer" /></a>
           {displayTech(["JavaScript", "React 19", "Tailwind 4"])}
           <p className="w-64 flex flex-wrap justify-start items-center px-2">
             <span className="space-x-2">
@@ -67,9 +73,12 @@ const Projects = forwardRef<HTMLDivElement, ProjectsProps>(
                 {lang === "En" ? "(Github repo)" : "(lien Github)"}</a></span></p></div>
         
         <div className="mt-8 flex flex-col items-center">
-          <img src={hangLangScreen} alt="a desktop screenshot of 'HangLang'"
-                className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
-                  border-cyan-400 object-cover object-center" />
+          <a href="https://hang-lang.vercel.app/"
+                target="_blank" rel="noopener noreferrer">
+            <img src={hangLangScreen} alt="a desktop screenshot of 'HangLang'"
+                  className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
+                    border-cyan-400 object-cover object-center
+                    cursor-pointer" /></a>
           {displayTech(["JavaScript", "React 19", "Tailwind 4"])}
           <p className="w-64 flex flex-wrap justify-start items-center px-2">
             <span className="space-x-2">
@@ -85,29 +94,35 @@ const Projects = forwardRef<HTMLDivElement, ProjectsProps>(
                 {lang === "En" ? "(Github repo)" : "(lien Github)"}</a></span></p></div>
         
         <div className="mt-8 flex flex-col items-center">
-          <img src={ATPicture1}
-                alt="An artwork of a futuristic Alan Turing, thinking and \
-                  determined to improve the world for everyone. You'll be \
-                  the only one to know that the link won't lead to a \
-                  handsome creature, but to a much less engaging series of \
-                  free notebooks I wrote about ML basics in homage to the \
-                  father of AI."
-                className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
-                  border-cyan-400 object-cover object-center" />
+          <a href="https://github.com/AlanTuring2000/ML-basics"
+                target="_blank" rel="noopener noreferrer">
+            <img src={ATPicture1}
+                  alt="An artwork of a futuristic Alan Turing, thinking and \
+                    determined to improve the world for everyone. You'll be \
+                    the only one to know that the link won't lead to a \
+                    handsome creature, but to a much less engaging series \
+                    of free notebooks I wrote about ML basics in homage to \
+                    the father of AI."
+                  className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
+                    border-cyan-400 object-cover object-center
+                    cursor-pointer" /></a>
           <a href="https://github.com/AlanTuring2000/ML-basics"
                 target="_blank" rel="noopener noreferrer"
                 className="w-64 px-2 text-center text-teal-200 underline">
             The basics of Machine learning</a></div>
         
         <div className="mt-8 flex flex-col items-center">
-          <img src={AT2000Logo}
-                alt="Another artwork of a futuristic Alan Turing, again in \
-                  cyberpunk colors, benevolent and smiling at you, instead \
-                  of a less engaging image of a notebook. The link goes to \
-                  a series of free notebooks about DL basics I wrote and \
-                  offer you for free."
-                className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
-                  border-cyan-400 object-cover object-center" />
+          <a href="https://github.com/AlanTuring2000/DL-basics"
+                target="_blank" rel="noopener noreferrer">
+            <img src={AT2000Logo}
+                  alt="Another artwork of a futuristic Alan Turing, again \
+                    in cyberpunk colors, benevolent and smiling at you, \
+                    instead of a less engaging image of a notebook. The \
+                    link goes to a series of free notebooks about DL basics \
+                    I wrote and offer you for free."
+                  className="my-1 w-64 h-36 shadow-2xl border-4 rounded-xl
+                    border-cyan-400 object-cover object-center
+                    cursor-pointer" /></a>
           <a href="https://github.com/AlanTuring2000/DL-basics"
                 target="_blank" rel="noopener noreferrer"
                 className="w-64 px-2 text-center text-teal-200 underline">
