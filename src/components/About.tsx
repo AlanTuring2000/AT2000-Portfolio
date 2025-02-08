@@ -72,7 +72,8 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
         
         <div className = {sectionStyle}>
           <img src={webdevLogo}
-                alt="a drawing of my future self in front of a screen, coding"
+                alt="a drawing of my future self in front of a screen, \
+                  coding"
                 className = {`h-24 ${imageStyle}`} />
           <div className="flex flex-col justify-around items-start">
           <h3 className = {smallTitleStyle}>
