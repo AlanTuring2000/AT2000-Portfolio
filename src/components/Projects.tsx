@@ -91,8 +91,9 @@ const Projects = forwardRef<HTMLDivElement, ProjectsProps>(
               <a href="https://github.com/AlanTuring2000/HangLang"
                     target="_blank" rel="noopener noreferrer"
                     className="text-left text-sm text-purple-200 underline">
-                {lang === "En" ? "(Github repo)" : "(lien Github)"}</a></span></p></div>
-        
+                {lang === "En" ? "(Github repo)" : "(lien Github)"}</a></span></p></div></div>
+      
+      <div className="mx-10 flex flex-wrap justify-around items-start">        
         <div className="mt-8 flex flex-col items-center">
           <a href="https://github.com/AlanTuring2000/ML-basics"
                 target="_blank" rel="noopener noreferrer">
@@ -109,7 +110,7 @@ const Projects = forwardRef<HTMLDivElement, ProjectsProps>(
           <a href="https://github.com/AlanTuring2000/ML-basics"
                 target="_blank" rel="noopener noreferrer"
                 className="w-64 px-2 text-center text-teal-200 underline">
-            The basics of Machine learning</a></div>
+            The basics of Machine Learning</a></div>
         
         <div className="mt-8 flex flex-col items-center">
           <a href="https://github.com/AlanTuring2000/DL-basics"
